@@ -1,0 +1,16 @@
+在car_userinfo表里添加一条数据：
+
+id:1
+password:pbkdf2_sha256$30000$5b0Q85xcg0ZQ$BxhTHWL1EaCwv1rTEu3wrW739vwEeDi+Ob4fSPY66Gk=\
+is_superuser:1
+username:2
+is_staff:1
+is_active:1
+date_joined:2018-09-05 02:05:37.988643
+user_type:2
+name:朴炯文
+receive_email:xxx@xx.com
+其余的不用填
+
+添加以上数据就会生成 账号为 2 ，密码为 2的管理者，可进入系统管理者界面。
+models.py里有字段说明
